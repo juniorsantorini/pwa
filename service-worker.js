@@ -1,8 +1,8 @@
 const CACHE_NAME = 'borapracima-v1';
 const urlsToCache = [
-  '/',
-  '/index.html'
-];
+     'https://borapracima.site/',
+     'https://borapracima.site/index.html'
+   ];
 
 // Instalação do Service Worker
 self.addEventListener('install', event => {
